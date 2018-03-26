@@ -12,16 +12,17 @@
 Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.
 ~~~
 
-##### 강조표시 
+##### 강조표시
 ~~~
 <strong>creating web pages</strong>
-
 ~~~
+<strong>creating web pages</strong>
 
 ##### 밑줄
 ~~~
 <u>web</u>
 ~~~
+<u>web</u>
 
 ##### 헤더
 ~~~
@@ -68,7 +69,16 @@ p 태그는 단락을 구분할 수 있어 더 의미있는 태그이다.
   <li>sorialgi</li>
 </ul>
 ~~~
-
+<ul>
+  <li>1. HTML</li>
+  <li>2. CSS</li>
+  <li>3. JavaScript</li>
+</ul>
+<ul>
+  <li>egoing</li>
+  <li>k8805</li>
+  <li>sorialgi</li>
+</ul>
 
 ### 문서의 구조
 본문은 body 태그로 본문을 설명하는 태그는 head 태그를 사용합니다.
@@ -104,3 +114,17 @@ head 태그와 body 태그를 감싸는 최상위 태그
 ~~~
 <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a>
 ~~~
+
+### 웹호스팅 (github pages)
+
+1. github 가입, 로그인, 저장소(repository) 만들기.
+2. Upload files, Commit changes.
+3. Repository > Settings > Github Pages에서 master branch를 선택하고 Save.
+4. [웹사이트 접속](https://ohrak22.github.io/my-opentutorials/webn/web1/index.html)
+
+### 웹서버 운영하기
+...
+
+
+
+
