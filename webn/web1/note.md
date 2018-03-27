@@ -16,13 +16,11 @@ Hypertext Markup Language (HTML) is the standard markup language for creating we
 ~~~
 <strong>creating web pages</strong>
 ~~~
-<strong>creating web pages</strong>
 
 ##### 밑줄
 ~~~
 <u>web</u>
 ~~~
-<u>web</u>
 
 ##### 헤더
 ~~~
@@ -44,6 +42,7 @@ img, input, br, hr, meta 등은 닫지 않는 태그이다.
 <p style="margin-top:45px;">
 ~~~
 이것이 바로 CSS입니다
+
 p 태그는 단락을 구분할 수 있어 더 의미있는 태그이다.
 
 ##### 이미지
@@ -85,8 +84,10 @@ p 태그는 단락을 구분할 수 있어 더 의미있는 태그이다.
 
 ##### head 태그
 ~~~
-<title>WEB1 - html</title>
-<meta charset="utf-8">
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+</head>
 ~~~
 title 태그는 문서의 제목을 나타내며
 meta charset="utf-8"은 이 문서가 utf-8 형식으로 작성된 문서라는 것을 나타냅니다.
