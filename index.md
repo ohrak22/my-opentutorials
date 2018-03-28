@@ -6,8 +6,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### webn
 
-[web1](https://ohrak22.github.io/my-opentutorials/webn/web1/).
-[web2/css](https://ohrak22.github.io/my-opentutorials/webn/web2/css).
-[web2/javascript](https://ohrak22.github.io/my-opentutorials/webn/web2/java).
+[web1](https://ohrak22.github.io/my-opentutorials/webn/web1/)  
+[web2/css](https://ohrak22.github.io/my-opentutorials/webn/web2/css)  
+[web2/javascript](https://ohrak22.github.io/my-opentutorials/webn/web2/java)  
 
 
