@@ -14,10 +14,12 @@ font 태그를 이용해 color를 바꾼다.
 </style>
 ~~~
 a 태그의 컬러를 검정색으로 바꾼다.
-* a는 선택자(Selector)
-* color: black; 부분은 선언(Declaration)
-* color는 속성(Property)
-* black는 값(Value)
+~~~
+a는 선택자(Selector)
+color: black; 부분은 선언(Declaration)
+color는 속성(Property)
+black는 값(Value)
+~~~
 
 ### 속성
 태그에 style 속성을 사용해 본다.
