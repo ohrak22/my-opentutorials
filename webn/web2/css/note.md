@@ -64,7 +64,6 @@ css selector 검색
 black level element
 inline element
 css box model 검색
-
 ##### 박스모델 사용
 ~~~
 h1 {
@@ -81,7 +80,6 @@ ol {
 	padding: 20px;
 }
 ~~~
-
 ### 그리드
 아무의미 없는 디자인용 태그
 div: block level
@@ -117,23 +115,8 @@ div 태그에 grid 아이디 추가
 ~~~
 
 ## 반응형 디자인과 미디어 쿼리 소개
-화면의 크기에 따라 디자인이 바뀌는 페이지 만들기  
-style.css  
-~~~
-@media(max-width:800px) {
-    #grid {
-        display: block;
-    }
+화면의 크기에 따라 디자인이 바뀌는 페이지 만들기
 
-    ol {
-        border-right: none;
-    }
-
-    h1 {
-        border-bottom: none;
-    }
-}
-~~~
 
 
 
