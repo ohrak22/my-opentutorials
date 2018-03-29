@@ -57,3 +57,6 @@ night와 day 버튼을 만들고 클릭하면 backgroundColor와 text color를 
     document.querySelector('body').style.color = 'black';
 ">
 ~~~
+
+### 비교 연산자와 Boolean 데이터 타입
+
