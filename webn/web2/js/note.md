@@ -59,4 +59,166 @@ night와 day 버튼을 만들고 클릭하면 backgroundColor와 text color를 
 ~~~
 
 ### 비교 연산자와 Boolean 데이터 타입
+ex4.html
+~~~
+<script>
+     document.write(1===1);
+</script>
+~~~
+
+### 조건문
+ex5.html
+~~~
+<script>
+	document.write("1<br>");
+	if (true) {
+		document.write("2<br>");
+	} else {
+		document.write("3<br>");
+	}
+	document.write("4<br>");
+</script>
+~~~
+
+### 조건문의 활용
+night_day 버튼을 만들고 조건에 따라 색을 바꾸는 코드를 만든다.
+
+3.html
+~~~
+<input id="night_day" type="button" value="night" onclick="
+    if(document.querySelector('#night_day').value === 'night'){
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+      document.querySelector('#night_day').value = 'day';
+    } else {
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+      document.querySelector('#night_day').value = 'night';
+    }
+  ">
+~~~
+
+### 리팩토링(refactoring)
+this와 var를 이용해 코드를 더 간결하게 만들기
+~~~
+<input id="night_day" type="button" value="night" onclick="
+   var target = document.querySelector('body');
+   if(this.value === 'night'){
+     target.style.backgroundColor = 'black';
+     target.style.color = 'white';
+     this.value = 'day';
+   } else {
+     target.style.backgroundColor = 'white';
+     target.style.color = 'black';
+     this.value = 'night';
+   }
+">
+~~~
+
+### 배열
+ex6.html
+
+### 반복문
+ex7.html
+
+### 배열과 반복문
+ex8.html
+
+### 함수
+ex9.html
+Basic  
+Parameter & Argument  
+Return
+
+### 함수 활용
+nightDayHandler 함수를 만들고 night_day onclick 이벤트에서 호출한다.
+~~~ html
+<input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
+~~~
+~~~ js
+function nightDayHandler(self) {
+	var target = document.querySelector('body');
+	if (self.value === 'night') {
+		Body.setBackgroundColor('black');
+		Body.setColor('white');
+		self.value = 'day';
+
+		Links.setColor('white');
+	} else {
+		Body.setBackgroundColor('white');
+		Body.setColor('black');
+		self.value = 'night';
+
+		Links.setColor('blue');
+	}
+}
+~~~
+
+### 객체
+객체를 만들고 사용하기  
+10.html  
+Create
+~~~
+var coworkers = {
+	"programmer": "egoing",
+	"designer": "leezche"
+};
+document.write("programmer : " + coworkers.programmer + "<br>");
+~~~
+Iterate
+~~~
+for (var key in coworkers) {
+	document.write(key + ' : ' + coworkers[key] + '<br>');
+}
+~~~
+Property & Method
+~~~
+coworkers.showAll = function () {
+	for (var key in this) {
+		document.write(key + ' : ' + this[key] + '<br>');
+	}
+}
+coworkers.showAll();
+~~~
+
+### 객체 활용
+Body 객체를 만들고 setColor와 setBackgroundColor 함수를 넣는다.
+~~~ js
+var Body = {
+	setColor: function (color) {
+		//document.querySelector('body').style.color = color;
+		$('body').css('color', color);
+	},
+	setBackgroundColor: function (color) {
+		// document.querySelector('body').style.backgroundColor = color;
+		$('body').css('backgroundColor', color);
+	}
+}
+~~~
+Links 객체를 만들고 nightDayHandler 함수를 수정한다.
+
+### 파일로 쪼개서 정리 정돈하기
+colors.js 파일을 만들고 스크립트 코드를 옮긴다.  
+모든 파일의 head 태그에 다음 코드를 넣어준다.
+~~~
+<script src="colors.js"></script>
+~~~
+
+### 라이브러리와 프래임워크
+CDN을 통해 jquery를 사용한다.  
+head에 다음 코드를 작성한다.
+~~~
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+~~~
+colors.js
+~~~
+$('a').css('color', color);
+~~~
+
+### UI vs API
+User Interface
+Application Programming Interface
+
+### 수업을 마치며
+
 
