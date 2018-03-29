@@ -13,7 +13,6 @@ font 태그를 이용해 color를 바꾼다.
 	}
 </style>
 ~~~
-a 태그의 컬러를 검정색으로 바꾼다.
 ~~~
 a는 선택자(Selector)
 color: black; 부분은 선언(Declaration)
@@ -29,8 +28,8 @@ black는 값(Value)
 여러개의 속성 사용시 세미콜론으로 구분.
 
 ### CSS 속성을 스스로 알아내는 방법
-css text size property 검색
-css text center property
+css text size property 검색  
+css text center property 검색
 ~~~
 font-size: 45px;
 text-align: center;
@@ -41,13 +40,13 @@ text-align: center;
 ~~~
 <a href="2.html" class="saw" id="active">CSS</a>
 ~~~
-선택자 앞에 .을 추가하여 class를 선택한다.
+선택자 앞에 .을 추가하여 class가 선택된다.
 ~~~
 .saw {
 	color: gray;
 }
 ~~~
-선택자 앞에 #이 오면 id가 선택된다.
+선택자 앞에 #을 차가하면 id가 선택된다.
 ~~~
 #active {
 	color: red;
@@ -62,8 +61,8 @@ text-align: center;
 css selector 검색
 
 ### 박스모델
-black level element
-inline element
+black level element  
+inline element  
 css box model 검색
 
 ##### 박스모델 사용
@@ -107,7 +106,7 @@ div 태그에 grid 아이디 추가
 	}
 </style>
 ~~~
-그리드 아이디 하위 태그 선택
+하위 선택자
 ~~~
 #grid ol {
 	padding-left: 33px;
