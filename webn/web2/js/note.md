@@ -45,3 +45,15 @@ body 태그를 선택하고 style 속성을 변경하기.
 ~~~
 document.querySelector('body').style.backgroundColor = 'black';
 ~~~
+night와 day 버튼을 만들고 클릭하면 backgroundColor와 text color를 바꾸는 코드를 만든다.
+3.html
+~~~
+<input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+">
+<input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+">
+~~~
