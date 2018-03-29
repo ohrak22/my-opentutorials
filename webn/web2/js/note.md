@@ -1,5 +1,5 @@
 ﻿### HTML과 JavaScript의 만남 1
-script 태그를 사용해 JavaScript를 실행한다.
+script 태그를 사용해 JavaScript를 실행한다.  
 ex1.html
 ~~~
 <script>
@@ -9,7 +9,7 @@ ex1.html
 html은 정적이지만 자바스크립트는 동적이다.
 
 ### HTML과 JavaScript의 만남 2
-input 태그를 만들기.
+input 태그를 만들기.  
 ex2.html
 ~~~
 <input type="button" value="hi" onclick="alert('hi')">
